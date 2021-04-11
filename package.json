@@ -1,0 +1,26 @@
+{
+  "name": "test-sf-odata",
+  "version": "1.0.0",
+  "description": "A simple node-based server to test OData with salesforce",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "salesforce.com",
+    "odata"
+  ],
+  "author": "Prashanth Krishnamurthy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "simple-odata-server": "^1.1.1",
+    "simple-odata-server-nedb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
